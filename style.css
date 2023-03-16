@@ -1,0 +1,310 @@
+.inicio{
+    background-color: #fff159
+}
+
+#header{
+    width: 100%;
+}
+.categorias button{
+    padding: 15px;
+    background-color: #fff159;
+    margin-bottom: 20px;
+    margin: 15px;
+    text-align: center;
+    margin-left: 15px;
+}
+.categorias2 button{
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin: 15px;
+    text-align: center;
+    margin-left: 15px;
+}
+.categorias2{
+    margin-top: 100px;
+}
+.categorias2 h3{
+    text-align: center;
+    font-size: 1.5em;
+}
+.categorias2 img{
+    width: 110px;
+}
+.categorias img{
+    width: 115px;
+}
+.topo #links a{
+    padding: 20px;
+    padding-right: 50px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top:60px;
+    margin-left: 20px;
+}
+
+hr{
+    padding: 0.5px;
+    margin-top: 15px;
+    background-color: black;
+}
+
+.topo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.logo img{
+    width: 170px;
+    padding-left: 20px;
+}
+
+.nav #links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100px;
+    align-items: center;
+}
+
+.barra {
+    background: none;
+    border: none;
+    font-size: 20px;
+    margin-left: 530px;
+    margin-top: 20px;
+
+}
+.lupa{
+    background: none;
+    border: none;
+    font-size: 20px;
+    width: 20%;
+    height: 100%;
+}
+
+#barra_pesquisa{
+    background-color: white;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 0px 15px;
+    margin: 15px;
+    margin-top: 65px;
+}
+
+#barra_pesquisa input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+#barra_pesquisa button i{
+    width: 35px !important;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#ofertas #ofertas-dia{
+    height: 200px;
+    width: 950px;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 80px;
+}
+#ofertas-dia2{
+    height: 200px;
+    width: 100px;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 80px;
+}
+
+.ofertinhas{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 40px;
+}
+.fritadeira,
+.camera,
+.laptop,
+.cadeira,
+.meia{
+    background-color: white;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.fritadeira img,
+.camera img,
+.laptop img,
+.cadeira img,
+.meia img{
+    width: 200px;
+    padding: 5px;
+}
+.ofertinhas img{
+    margin-top: 15px;
+}
+
+#ofertas h3,
+#promocao h3{
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+
+.ofertinhas button{
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    font-weight: 1000;
+    padding: 5px;
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.valor{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+.preco{
+    margin-left: 15px;
+    color: green;
+    font-weight: 300;
+}
+.frete{
+    margin-left: 15px;
+    color: green;
+    font-weight: 1000;
+}
+.nome{
+    margin-left: 15px;
+    font-weight: 1000;
+    font-size: 0.9em;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+#foot{
+    padding: 15px;
+    background-color: #fff159;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.fot2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+footer{
+    background-color: #fff159;
+    font-display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    background-image: url(img/outros/rodape.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-top: 200px;
+}
+
+main #login h3{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 15px;
+}
+main #login{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 450px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+main #login #login-formulario form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+main #login #login-formulario form input{
+    display: block;
+    padding: 15px;
+    border: none;
+    border-radius: 7px;
+    border-bottom: 1px solid black;
+    width: 320px;
+    margin-bottom: 10px;
+}
+main #login #login-formulario form button{
+    padding: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #fff159;
+    color: black;
+    border-radius: 20px;
+    width: 360px;
+    cursor: pointer;
+}
+
+main #registro h3{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+main #registro{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 450px;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+main #registro #registro-formulario form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+main #registro #registro-formulario form input{
+    display: block;
+    padding: 15px;
+    border: none;
+    border-radius: 7px;
+    border-bottom: 1px solid black;
+    width: 320px;
+    margin-bottom: 10px;
+}
+main #registro #registro-formulario form button{
+    padding: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #fff159;
+    color: black;
+    border-radius: 20px;
+    width: 360px;
+    cursor: pointer;
+}
